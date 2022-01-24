@@ -43,7 +43,7 @@ public class ValidPIN {
     }
 
     public static boolean validate (String pin) {
-        int number = 0;
+        int number;
         try {
             int length1 = pin.length();
             if (length1 == 6 || length1 == 4) {
